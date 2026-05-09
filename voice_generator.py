@@ -1,7 +1,7 @@
 import pyttsx3
 import os
 
-def generate_voice(script, output_path="output/voiceover.mp3"):
+def generate_voice(script, output_path="output/voiceover.wav"):
     print("Generating voiceover...")
     
     engine = pyttsx3.init()
