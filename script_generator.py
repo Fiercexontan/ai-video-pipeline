@@ -14,7 +14,12 @@ def generate_script(topic):
         messages=[
             {
                 "role": "system",
-                "content": "You are a professional video script writer. Write clear, engaging video scripts that are between 60-90 seconds when spoken. No stage directions. Just the words to be spoken."
+                "content": """You are a professional video script writer. 
+Write ONLY the exact words to be spoken out loud. 
+No stage directions. No sound effects. No music cues. 
+No labels like 'Narrator:' or 'Scene:' or 'Title:'.
+No brackets or parentheses.
+Just pure spoken words only, nothing else."""
             },
             {
                 "role": "user",
